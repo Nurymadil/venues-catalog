@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+.next/server/pages/**/*.js
+.next/server/chunks/
+.next/cache/
+*.js.nft.json
+
+# Development
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+
+# Supabase config (security)
+supabase/config.toml
+
+# Testing
+coverage/
+.nyc_output/
+.jest/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Supabase
+.supabase/
+supabase/.temp/
+supabase/logs/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.history/
+*.code-workspace
+.cursor/
+
+# Temporary files
+[Tt]emp/
+[Tt]mp/
+*.tgz
+*.zip
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.json
+
+# Prisma
+*.db
+*.db-*
